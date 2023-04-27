@@ -70,8 +70,28 @@ class StudentRepositoryTest {
         System.out.println("studentListWithLastNameNotNull = " + studentListWithLastNameNotNull);
     }
     @Test
-    public void getStudentByEmailIdBasedOnQuery(){
-        Student student = studentRepository.getStudentByEmailId("k@k.com");
+    public void getStudentFirstNameOfEmailIdBasedOnQuery(){
+        String student = studentRepository.getStudentFirstNameOfEmailId("k@k.com");
+        System.out.println("student = " + student);
+    }
+    @Test
+    public void getStudentByFirstNameAndLastName(){
+        Student student = studentRepository.findByFirstNameAndLastName("bhanu","priya");
+        System.out.println("student = " + student);
+    }
+    @Test
+    public void getStudentByEmailNative(){
+        String student = studentRepository.getStudentByEmailAddressNative("k@k.com");
+        System.out.println("student = " + student);
+    }
+    @Test
+    public void getStudentByEmailNativeParam(){
+        String student = studentRepository.getStudentByEmailAddressNativeParam("ag@ag.com");
+        System.out.println("student = " + student);
+    }
+    @Test
+    public void updateNameByEmailAddress(){
+        int student = studentRepository.updateFirstNameByEmailAddress("priya","bp@bp.com");
         System.out.println("student = " + student);
     }
 

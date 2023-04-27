@@ -36,21 +36,8 @@
       <recent name="$PROJECT_DIR$/spring-data-jpa/src/main/java/com/example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StudentRepositoryTest.saveStudentWithGuardian">
-    <configuration name="SpringJpaDemoMaven1Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.SpringJpaDemoMaven1Application" />
-      <module name="spring-data-jpa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentRepositoryTest.updateNameByEmailAddress">
+    <configuration name="StudentRepositoryTest.getStudentByEmailIdBasedOnQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-data-jpa" />
       <extension name="coverage">
         <pattern>
@@ -60,12 +47,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springjpademomaven1.Repository" />
       <option name="MAIN_CLASS_NAME" value="com.example.springjpademomaven1.Repository.StudentRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="getStudentByEmailIdBasedOnQuery" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentRepositoryTest.saveStudentWithGuardian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.getStudentByEmailNative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-data-jpa" />
       <extension name="coverage">
         <pattern>
@@ -75,7 +63,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springjpademomaven1.Repository" />
       <option name="MAIN_CLASS_NAME" value="com.example.springjpademomaven1.Repository.StudentRepositoryTest" />
-      <option name="METHOD_NAME" value="saveStudentWithGuardian" />
+      <option name="METHOD_NAME" value="getStudentByEmailNative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.getStudentByEmailNativeParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springjpademomaven1.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springjpademomaven1.Repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springjpademomaven1.Repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="getStudentByEmailNativeParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.getStudentFirstNameOfEmailIdBasedOnQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springjpademomaven1.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springjpademomaven1.Repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springjpademomaven1.Repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="getStudentFirstNameOfEmailIdBasedOnQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.updateNameByEmailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springjpademomaven1.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springjpademomaven1.Repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springjpademomaven1.Repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="updateNameByEmailAddress" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,9 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentRepositoryTest.saveStudentWithGuardian" />
-        <item itemvalue="JUnit.StudentRepositoryTest" />
-        <item itemvalue="Application.SpringJpaDemoMaven1Application" />
+        <item itemvalue="JUnit.StudentRepositoryTest.updateNameByEmailAddress" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudentByEmailNativeParam" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudentByEmailNative" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudentFirstNameOfEmailIdBasedOnQuery" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudentByEmailIdBasedOnQuery" />
       </list>
     </recent_temporary>
   </component>
